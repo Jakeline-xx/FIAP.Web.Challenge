@@ -1,0 +1,41 @@
+.secoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4em;
+}
+
+.secoes p {
+  width: 50em;
+}
+
+.lista-de-vagas {
+  display: flex;
+}
+
+.lista-de-vagas div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2em;
+  background-color: rgb(204, 222, 247);
+  width: 20em;
+  padding: 1em;
+}
+
+.lista-de-vagas div p {
+  padding-bottom: 3em;
+}
+
+button {
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 2em;
+  text-align: center;
+  margin-top: 4em;
+}
