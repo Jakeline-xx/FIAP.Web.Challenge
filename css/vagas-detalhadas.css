@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=IBM+Plex+Sans:wght@300&family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
+
+body {
+    background-color: #F4F4F4;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0%;
+    
+}
+
+#colunas{
+    display: flex;
+    margin: 1.6em;
+}
+
+#primeira-coluna{
+    width: 50%;
+    margin-right: 5em;
+}
+
+#segunda-coluna{
+    width: 50%;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    margin-top: 3em;
+    font-size: 16px;
+}
+
+button{
+    background-color:#0062FF; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#cabecalho{
+    display: flex;
+    background-color:#FFFFFF;
+    padding: 20px;
+    gap: 60%;
+    justify-content: space-between;
+}
+
+
+#texto nav a{
+    color: #53565F;
+    text-decoration: none;
+    
+}
+
+#navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 23px;
+    background-color: #ffffff;
+}
+
+hr{
+    margin: auto;
+}
+
+#navegacao nav a{
+    color: #53565F;
+    margin: 1.6em;
+    text-decoration: none;
+    font-size: 16px;
+    
+   
+}
+
+#cabecalho img{
+    margin-left: 0.5em;
+}
+
+#video {
+    margin-top: 1.7em;
+}
+
+.sociais{
+    margin-right: 0.8em;
+}
+
+#video{
+    border-radius:6px;
+}
+
+footer{
+    background-color: #3B3B3B;
+    padding: 30px;
+}
+
+footer img{
+    padding: 0px;
+}
