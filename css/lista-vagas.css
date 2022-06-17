@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=IBM+Plex+Sans:wght@300&family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
+
+
+body {
+  background-color: #ffffff;
+  margin: 0%;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1{
+  margin: 1em;
+}
+
+.cabecalho{
+  display: flex;
+  background-color:#ffffff;
+  padding: 20px;
+  gap: 60%;
+  justify-content: space-between;
+}
+
+
+.texto nav a{
+  color: #53565F;
+  text-decoration: none;
+  
+}
+
+.navegacao{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 23px;
+  background-color: #ffffff;
+}
+
+hr{
+  margin: auto;
+}
+
+.navegacao nav a{
+  color: #53565F;
+  margin: 1.6em;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.cabecalho img{
+  margin-left: 0.5em;
+}
+
+
 .secoes {
   display: flex;
   align-items: center;
@@ -30,6 +82,12 @@
 button {
   text-decoration: none;
   padding: 0.5em;
+  background-color:#0062FF; 
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
 }
 
 footer {
